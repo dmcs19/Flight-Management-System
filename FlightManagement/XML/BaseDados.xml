@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<BaseDados>
+    <Conta>
+        <Email>admin@administrador.com</Email>
+        <Password>admin123</Password>
+    </Conta>
+    <Conta>
+        <Email>um_berto@piloto.com</Email>
+        <Password>1berto</Password>
+    </Conta>
+    <Conta>
+        <Email>utilizador@gmail.com</Email>
+        <Password>utilizador123</Password>
+    </Conta>
+    <Conta>
+        <Email>dois_berto@piloto.com</Email>
+        <Password>2berto</Password>
+    </Conta>
+    <Conta>
+        <Email>tres_berto@piloto.com</Email>
+        <Password>3berto</Password>
+    </Conta>
+    <Conta>
+        <Email>bla@gmail.com</Email>
+        <Password>bla</Password>
+    </Conta>
+    <Conta>
+        <Email>quatro_berto@piloto.com</Email>
+        <Password>4berto</Password>
+    </Conta>
+    <Companhia>
+        <Nome>TAP</Nome>
+    </Companhia>
+    <Companhia>
+        <Nome>Emirates</Nome>
+    </Companhia>
+    <Companhia>
+        <Nome>Ryanair</Nome>
+    </Companhia>
+    <Companhia>
+        <Nome>Lufthansa</Nome>
+    </Companhia>
+    <Aviao>
+        <Modelo>Boeing 777</Modelo>
+        <Capacidade>350</Capacidade>
+    </Aviao>
+    <Aviao>
+        <Modelo>Airbus A300</Modelo>
+        <Capacidade>270</Capacidade>
+    </Aviao>
+    <Piloto>
+        <Nome>Um Berto</Nome>
+        <Horas_de_voo>5</Horas_de_voo>
+    </Piloto>
+    <Piloto>
+        <Nome>Dois Berto</Nome>
+        <Horas_de_voo>6</Horas_de_voo>
+    </Piloto>
+    <Piloto>
+        <Nome>Tres Berto</Nome>
+        <Horas_de_voo>0</Horas_de_voo>
+    </Piloto>
+    <Piloto>
+        <Nome>Quatro Berto</Nome>
+        <Horas_de_voo>0</Horas_de_voo>
+    </Piloto>
+    <Piloto>
+        <Nome>Cinco Berto</Nome>
+        <Horas_de_voo>5</Horas_de_voo>
+    </Piloto>
+    <Aeroporto>
+        <Nome>Humberto Delgado</Nome>
+        <Cidade>Lisboa</Cidade>
+        <Abreviatura>LIS</Abreviatura>
+    </Aeroporto>
+    <Aeroporto>
+        <Nome>John F. Kennedy</Nome>
+        <Cidade>Nova Iorque</Cidade>
+        <Abreviatura>JFK</Abreviatura>
+    </Aeroporto>
+    <Aeroporto>
+        <Nome>Franz Josef Strauss</Nome>
+        <Cidade>Munique</Cidade>
+        <Abreviatura>MUC</Abreviatura>
+    </Aeroporto>
+    <Aeroporto>
+        <Nome>Francisco Sá Carneiro</Nome>
+        <Cidade>Porto</Cidade>
+        <Abreviatura>OPO</Abreviatura>
+    </Aeroporto>
+    <Aeroporto>
+        <Nome>Josep Tarradellas Barcelona-El Prat</Nome>
+        <Cidade>Barcelona</Cidade>
+        <Abreviatura>BCN</Abreviatura>
+    </Aeroporto>
+    <Voo>
+        <Código>XYZ789</Código>
+        <Aviao_Modelo>Boeing 777</Aviao_Modelo>
+        <Companhia_Nome>TAP</Companhia_Nome>
+        <Piloto_Nome>Um Berto</Piloto_Nome>
+        <Aeroporto_Partida_Nome>John F. Kennedy</Aeroporto_Partida_Nome>
+        <Aeroporto_Chegada_Nome>Humberto Delgado</Aeroporto_Chegada_Nome>
+        <Estado>Completo</Estado>
+        <Hora_Partida>23:00</Hora_Partida>
+        <Hora_Chegada>4:00</Hora_Chegada>
+        <Data>18-05-2022</Data>
+    </Voo>
+    <Voo>
+        <Código>ABC123</Código>
+        <Aviao_Modelo>Boeing 777</Aviao_Modelo>
+        <Companhia_Nome>TAP</Companhia_Nome>
+        <Piloto_Nome>Um Berto</Piloto_Nome>
+        <Aeroporto_Partida_Nome>Humberto Delgado</Aeroporto_Partida_Nome>
+        <Aeroporto_Chegada_Nome>John F. Kennedy</Aeroporto_Chegada_Nome>
+        <Estado>Cancelado</Estado>
+        <Hora_Partida>8:00</Hora_Partida>
+        <Hora_Chegada>16:00</Hora_Chegada>
+        <Data>20-05-2022</Data>
+    </Voo>
+    <Voo>
+        <Código>FEO392</Código>
+        <Aviao_Modelo>Airbus A300</Aviao_Modelo>
+        <Companhia_Nome>Lufthansa</Companhia_Nome>
+        <Piloto_Nome>Dois Berto</Piloto_Nome>
+        <Aeroporto_Partida_Nome>Francisco Sá Carneiro</Aeroporto_Partida_Nome>
+        <Aeroporto_Chegada_Nome>Franz Josef Strauss</Aeroporto_Chegada_Nome>
+        <Estado>Completo</Estado>
+        <Hora_Partida>12:00</Hora_Partida>
+        <Hora_Chegada>18:00</Hora_Chegada>
+        <Data>25-06-2022</Data>
+    </Voo>
+    <Voo>
+        <Código>JDO345</Código>
+        <Aviao_Modelo>Airbus A300</Aviao_Modelo>
+        <Companhia_Nome>Ryanair</Companhia_Nome>
+        <Piloto_Nome>Dois Berto</Piloto_Nome>
+        <Aeroporto_Partida_Nome>Josep Tarradellas Barcelona-El Prat</Aeroporto_Partida_Nome>
+        <Aeroporto_Chegada_Nome>John F. Kennedy</Aeroporto_Chegada_Nome>
+        <Estado>A Tempo</Estado>
+        <Hora_Partida>16:00</Hora_Partida>
+        <Hora_Chegada>20:00</Hora_Chegada>
+        <Data>28-06-2022</Data>
+    </Voo>
+</BaseDados>
